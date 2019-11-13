@@ -63,13 +63,13 @@ export default class Intro extends Component {
 						</Button>
 					</div>
 				</div>
-				<IntroFooter
-					onShowPurposes={onShowPurposes}
-					onAcceptAll={onAcceptAll}
-					localization={localization}
-					store={store}
-					updateCSSPrefs={updateCSSPrefs}
-				/>
+				{/*<IntroFooter*/}
+				{/*	onShowPurposes={onShowPurposes}*/}
+				{/*	onAcceptAll={onAcceptAll}*/}
+				{/*	localization={localization}*/}
+				{/*	store={store}*/}
+				{/*	updateCSSPrefs={updateCSSPrefs}*/}
+				{/*/>*/}
 			</div>
 		);
 	}

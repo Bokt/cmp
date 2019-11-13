@@ -3,6 +3,7 @@ import style from './popup.less';
 import Intro from './intro/intro';
 import Details from './details/details';
 import Panel from '../panel/panel';
+import CloseButton from '../closebutton/closebutton';
 
 
 const SECTION_INTRO = 0;
@@ -52,9 +53,11 @@ export default class Popup extends Component {
 				{config.blockBrowsing &&
 					<div
 						class={style.overlay}
-						onClick={this.handleClose}
-				/>}
+						onClick={this.onAcceptAll}
+					>
+					</div>}
 				<div name='content' class={config.blockBrowsing ? style.content : style.noOverlayContent}>
+					<CloseButton onClick={this.handleClose } />
 					<Panel selectedIndex={selectedPanelIndex}>
 						<Intro
 							onAcceptAll={this.onAcceptAll}

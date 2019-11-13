@@ -11,7 +11,7 @@ export default class CloseButton extends Component {
 	};
 
 	componentDidMount() {
-		this.props.updateCSSPrefs();
+		//this.props.updateCSSPrefs();
 	}
 
 	render(props) {

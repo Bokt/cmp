@@ -74,6 +74,69 @@ export default {
 			purposesHeader: 'Purposes for storing information:',
 		}
 	},
+	nl: {
+		intro: {
+			title: 'Welkom op Bokt.nl',
+			description: 'Bokt.nl gebruikt cookies voor:' +
+				'<ul>' +
+				'	<li>Inloggen van gebruikers</li>' +
+				'	<li>Bijhouden van statistieken</li>' +
+				'	<li>Weergeven van relevante advertenties</li>' +
+				'</ul>' +
+				'Meer informatie vind je in onze <a href="/wiki/Bokt:Privacybeleid">privacyverklaring</a>.<br>Ben je hiermee akkoord?',
+			acceptAll: 'Akkoord',
+			showPurposes: 'Beheer je keuzes',
+			readOur: 'Lees onze %privacyPolicy%',
+			privacyPolicy: 'privacystatement',
+		},
+		details: {
+			title: 'Privacy voorkeuren',
+			back: 'Terug',
+			save: 'Akkoord',
+			showVendors: 'Alle partners',
+		},
+		summary: {
+			title: 'Meer weten over hoe informatie wordt gebruikt?',
+			description: 'Wij en geselecteerde bedrijven kunnen uw informatie raadplegen en gebruiken voor de onderstaande doeleinden. U kunt uw keuzes hieronder aanpassen of doorgaan met het gebruik van onze site als u akkoord gaat met de doeleinden.',
+			detailLink: 'Lees meer en stel voorkeuren in',
+			who: {
+				title: 'Wie gebruikt deze informatie?',
+				description: 'Wij en vooraf geselecteerde bedrijven zullen uw informatie gebruiken. U kunt elk bedrijf zien in de links hierboven of',
+				link: 'zie de volledige lijst hier.',
+			},
+			what: {
+				title: 'Welke informatie wordt er gebruikt?',
+				description: 'Verschillende bedrijven gebruiken verschillende informatie',
+				link: 'zie de volledige lijst hier.',
+			},
+		},
+		purposes: {
+			disclaimer: 'Wij en onze partners gebruiken persoonlijke informatie voor de volgende doelen. Je kan hieronder het gebruik voor de verschillende doelen aanpassen. Er is ook een  ',
+			disclaimerVendorLink: 'lijst met partners beschikbaar.',
+			featureHeader: 'Hieronder wordt verstaan:',
+			switchText: 'Bokt.nl en haar partners mogen geanonimiseerde data gebruiken voor dit doel',
+			active: 'Ja',
+			inactive: 'Nee',
+			showVendors: 'Bedrijven tonen',
+			hideVendors: 'Bedrijven verbergen',
+			company: 'Bedrijf',
+		},
+		vendors: {
+			title: 'Wie gebruikt deze informatie?',
+			description: 'Dit is de volledige lijst van bedrijven die je kunnen gebruiken. Raadpleeg hun privacybeleid voor meer informatie.',
+			back: 'Pas de manier aan waarop deze bedrijven gegevens van de vorige pagina gebruiken',
+			acceptNone: 'Alles weigeren',
+			acceptAll: 'Accepteer alles',
+			accept: 'Accepteer',
+			optOut: 'vereist opt-out',
+			description2: 'Stel in hoe deze bedrjiven je data mogen gebruiken op de ',
+			description2Link: 'vorige pagina.',
+			description3: 'Je kan alle instellingen in één keer aanpassen met ',
+			description3Link: 'deze link.',
+			company: 'Bedrijf',
+			offOn: 'Toestaan',
+		},
+	},
 	es: {
 		intro: {
 			title: 'Gracias por su visita ',

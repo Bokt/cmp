@@ -44,12 +44,12 @@ export default class Item extends Component {
 
                     <div class={style.body}>
                         <p><LocalLabel providedValue={selectedPurpose.description} localizeKey={`${currentPurposeLocalizePrefix[index]}.description`} /></p>
-                        <p><LocalLabel providedValue={localization && localization.purposes ? localization.purposes.featureHeader : ''} localizeKey='featureHeader'>This will include the following features:</LocalLabel></p>
-                        <ul>
-                        {features.map((feature, index) => (
-                            <li><LocalLabel class='featureItem' providedValue={feature.description} /></li>
-                        ))}
-                        </ul>
+                        {/*<p><LocalLabel providedValue={localization && localization.purposes ? localization.purposes.featureHeader : ''} localizeKey='featureHeader'>This will include the following features:</LocalLabel></p>*/}
+                        {/*<ul>*/}
+                        {/*{features.map((feature, index) => (*/}
+                        {/*    <li><LocalLabel class='featureItem' providedValue={feature.description} /></li>*/}
+                        {/*))}*/}
+                        {/*</ul>*/}
                         <div class={style.switchWrap}>
                             <div class={style.active}>
                                 <Switch
